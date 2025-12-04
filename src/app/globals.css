@@ -26,8 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 2rem;
+  padding: 4rem 2rem;
   position: relative;
 }
 
@@ -44,26 +43,24 @@ body {
 
 .cards-grid {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .card {
   position: relative;
-  width: 320px;
-  height: 280px;
+  width: 300px;
+  height: 240px;
   border-radius: 16px;
   background: var(--card-bg);
   backdrop-filter: blur(12px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 2rem;
+  padding: 1.75rem;
   cursor: pointer;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
-  animation: float 6s ease-in-out infinite;
   opacity: 0;
   overflow: hidden;
 }
@@ -88,18 +85,28 @@ body {
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
+  transition: padding 0.3s ease, filter 0.3s ease;
 }
 
-.card:nth-child(1) {
-  animation-delay: 0s, 0s;
+.card:hover::before {
+  padding: 2px;
+  filter: drop-shadow(0 0 8px var(--shimmer-1)) drop-shadow(0 0 16px var(--shimmer-2));
 }
 
-.card:nth-child(2) {
-  animation-delay: 2s, 0.2s;
-}
-
-.card-1 { animation: float 6s ease-in-out infinite, fadeSlideIn 0.8s ease-out 0.2s forwards; }
-.card-2 { animation: float 6s ease-in-out 2s infinite, fadeSlideIn 0.8s ease-out 0.4s forwards; }
+.card-1  { animation: float 6s ease-in-out 0.0s infinite, fadeSlideIn 0.6s ease-out 0.1s forwards; }
+.card-2  { animation: float 6s ease-in-out 0.4s infinite, fadeSlideIn 0.6s ease-out 0.15s forwards; }
+.card-3  { animation: float 6s ease-in-out 0.8s infinite, fadeSlideIn 0.6s ease-out 0.2s forwards; }
+.card-4  { animation: float 6s ease-in-out 1.2s infinite, fadeSlideIn 0.6s ease-out 0.25s forwards; }
+.card-5  { animation: float 6s ease-in-out 1.6s infinite, fadeSlideIn 0.6s ease-out 0.3s forwards; }
+.card-6  { animation: float 6s ease-in-out 2.0s infinite, fadeSlideIn 0.6s ease-out 0.35s forwards; }
+.card-7  { animation: float 6s ease-in-out 2.4s infinite, fadeSlideIn 0.6s ease-out 0.4s forwards; }
+.card-8  { animation: float 6s ease-in-out 2.8s infinite, fadeSlideIn 0.6s ease-out 0.45s forwards; }
+.card-9  { animation: float 6s ease-in-out 3.2s infinite, fadeSlideIn 0.6s ease-out 0.5s forwards; }
+.card-10 { animation: float 6s ease-in-out 3.6s infinite, fadeSlideIn 0.6s ease-out 0.55s forwards; }
+.card-11 { animation: float 6s ease-in-out 4.0s infinite, fadeSlideIn 0.6s ease-out 0.6s forwards; }
+.card-12 { animation: float 6s ease-in-out 4.4s infinite, fadeSlideIn 0.6s ease-out 0.65s forwards; }
+.card-13 { animation: float 6s ease-in-out 4.8s infinite, fadeSlideIn 0.6s ease-out 0.7s forwards; }
+.card-14 { animation: float 6s ease-in-out 5.2s infinite, fadeSlideIn 0.6s ease-out 0.75s forwards; }
 
 .card:hover {
   transform: translateY(-12px) scale(1.02);
@@ -113,16 +120,19 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--shimmer-3);
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   font-weight: 600;
+  flex-shrink: 0;
 }
 
 .card-title {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: var(--text-primary);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   line-height: 1.3;
+  height: 2.6rem;
+  flex-shrink: 0;
 }
 
 .card-topics {
