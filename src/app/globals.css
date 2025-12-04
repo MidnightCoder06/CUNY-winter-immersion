@@ -73,16 +73,13 @@ body {
   position: absolute;
   inset: 0;
   border-radius: 16px;
-  padding: 2px;
+  padding: 1px;
   background: linear-gradient(
     135deg,
     var(--shimmer-1),
     var(--shimmer-2),
-    var(--shimmer-3),
-    var(--shimmer-1)
+    var(--shimmer-3)
   );
-  background-size: 300% 300%;
-  animation: shimmer 4s ease infinite;
   -webkit-mask: 
     linear-gradient(#fff 0 0) content-box, 
     linear-gradient(#fff 0 0);
@@ -91,21 +88,6 @@ body {
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-}
-
-.card::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 16px;
-  background: linear-gradient(
-    135deg,
-    transparent 0%,
-    rgba(255, 255, 255, 0.03) 50%,
-    transparent 100%
-  );
-  background-size: 200% 200%;
-  animation: glint 3s ease-in-out infinite;
 }
 
 .card:nth-child(1) {
@@ -174,26 +156,6 @@ body {
   }
 }
 
-@keyframes shimmer {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes glint {
-  0%, 100% {
-    background-position: -100% -100%;
-  }
-  50% {
-    background-position: 200% 200%;
-  }
-}
 
 @keyframes fadeIn {
   from {

@@ -8,7 +8,7 @@ export default function Home() {
       <div className="ambient-orb orb-2" />
       <div className="ambient-orb orb-3" />
 
-      <h1 className="title">Winter Immersion</h1>
+      <h1 className="title">Winter Immersion Syllabus</h1>
 
       <div className="cards-grid">
         {/* January 2nd Card */}
