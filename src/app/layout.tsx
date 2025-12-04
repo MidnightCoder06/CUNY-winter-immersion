@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'CUNY Winter Immersion',
-  description: 'Welcome to the CUNY Winter Immersion project',
+  description: 'Welcome to the CUNY Winter Immersion program',
 }
 
 export default function RootLayout({
@@ -12,8 +12,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link 
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600&display=swap" 
+          rel="stylesheet" 
+        />
+      </head>
       <body>{children}</body>
     </html>
   )
 }
-
