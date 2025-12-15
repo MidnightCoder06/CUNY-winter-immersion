@@ -5,14 +5,15 @@
 ## Course Syllabus
 
 ### January 2nd
-* Gemini APIs for AI Ad Creation
+* Gemini APIs for AI Ad Creation 🎤
     * Veo3
     * Nano Banana 
 * Debugging Best Practices
 
-### January 5th
-* OpenAI APIs
+### January 5th 
+* OpenAI APIs 💻
   * Files
+  * Responses
   * Vector Stores
   * Embeddings
 
@@ -56,20 +57,15 @@
 
 * Customer Support Agent Architecture
 
-
 ### January 19th
 
-
 * OpenAI Moderation API
-
 
 ### January 20th
 
 * OpenAI Audio API
 
-
 ### January 21st
-
 
 * OpenAI Realtime API (Voice)
 
