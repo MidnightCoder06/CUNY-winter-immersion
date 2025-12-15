@@ -115,6 +115,15 @@ body {
     0 0 60px -15px rgba(139, 92, 246, 0.3);
 }
 
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link:hover {
+  text-decoration: none;
+}
+
 .card-date {
   font-size: 0.85rem;
   text-transform: uppercase;

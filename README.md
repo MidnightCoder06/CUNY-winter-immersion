@@ -29,7 +29,6 @@
 ### January 8th
 * Claude Code
 
-
 ### January 9th
 * Observability Foundations
   * Observability concepts

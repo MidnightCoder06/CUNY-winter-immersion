@@ -23,22 +23,29 @@ export default function Home() {
         </div>
 
         {/* January 5th */}
-        <div className="card card-2">
+        <a 
+          href="https://github.com/MidnightCoder06/housing-justice-builder" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="card card-2 card-link"
+        >
           <span className="card-date">January 5th</span>
           <h2 className="card-title">Intro to OpenAI APIs</h2>
           <ul className="card-topics">
             <li className="card-topic">Files</li>
+            <li className="card-topic">Responses</li>
             <li className="card-topic">Vector Stores</li>
             <li className="card-topic">Embeddings</li>
           </ul>
-        </div>
+        </a>
 
         {/* January 6th */}
         <div className="card card-3">
           <span className="card-date">January 6th</span>
-          <h2 className="card-title">OpenAI Completions API</h2>
+          <h2 className="card-title">OpenAI Codex</h2>
           <ul className="card-topics">
-            <li className="card-topic">Completions API</li>
+            <li className="card-topic">Visual Studio Extension</li>
+            <li className="card-topic">CLI</li>
           </ul>
         </div>
 
@@ -55,10 +62,9 @@ export default function Home() {
         {/* January 8th */}
         <div className="card card-5">
           <span className="card-date">January 8th</span>
-          <h2 className="card-title">OpenAI Codex</h2>
+          <h2 className="card-title">Claude Code</h2>
           <ul className="card-topics">
-            <li className="card-topic">Visual Studio Extension</li>
-            <li className="card-topic">CLI</li>
+            <li className="card-topic">Claude Code</li>
           </ul>
         </div>
 
