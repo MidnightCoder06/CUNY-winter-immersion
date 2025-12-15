@@ -18,16 +18,17 @@
   * Embeddings
 
 ### January 6th
-  * Completions 
+  * OpenAI Codex
+    * Visual Studio extension
+    * CLI
 
 ### January 7th
 * LlamaIndex
 * LlamaParse
 
 ### January 8th
-* OpenAI Codex
-  * Visual Studio extension
-  * CLI
+* Claude Code
+
 
 ### January 9th
 * Observability Foundations
