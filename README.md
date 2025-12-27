@@ -12,7 +12,7 @@ Both in in-class labs and homework for each day will be uploaded to the `assignm
 ## Course Syllabus
 
 ### January 2nd
-* Gemini APIs for AI Ad Creation
+* Gemini for AI Ad Creation
     * Veo3
     * Nano Banana 
 * Debugging Best Practices
