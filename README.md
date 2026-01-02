@@ -30,17 +30,14 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 5th 
-* OpenAI APIs
-  * Files
-  * Responses
-  * Vector Stores
-  * Embeddings
+* Moderation
 * Objectives:
-  * Explain what embeddings are and why they matter
-  * Describe the purpose of files and vector stores in AI systems
-  * Explain how embeddings enable semantic search and retrieval
-  * Identify real-world use cases for vector-based systems
-* Lecture outline: [OpenAI APIs](curriculum/01-05-openai-apis-files-vector-stores-embeddings/lecture-outline.md)
+  * learn how to make AI influencers
+  * Explain why safety and guardrails are required in AI systems
+  * Describe how the OpenAI Moderation API works
+  * Explain the purpose of Amazon Bedrock Guardrails
+  * Identify risks associated with unguarded AI deployments
+* Lecture outline: [Moderation & Guardrails](curriculum/01-19-moderation-guardrails/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 6th
@@ -142,14 +139,19 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 19th
-* Moderation
+* OpenAI APIs
+  * Files
+  * Responses
+  * Vector Stores
+  * Embeddings
 * Objectives:
-  * Explain why safety and guardrails are required in AI systems
-  * Describe how the OpenAI Moderation API works
-  * Explain the purpose of Amazon Bedrock Guardrails
-  * Identify risks associated with unguarded AI deployments
-* Lecture outline: [Moderation & Guardrails](curriculum/01-19-moderation-guardrails/lecture-outline.md)
+  * Explain what embeddings are and why they matter
+  * Describe the purpose of files and vector stores in AI systems
+  * Explain how embeddings enable semantic search and retrieval
+  * Identify real-world use cases for vector-based systems
+* Lecture outline: [OpenAI APIs](curriculum/01-05-openai-apis-files-vector-stores-embeddings/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+
 
 ### January 20th
 * OpenAI Audio API
