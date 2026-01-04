@@ -22,10 +22,8 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain what the Gemini API is and what problems it solves
   * Identify real-world use cases for AI-generated advertising
   * Explain what Veo3 is and how text-to-video models work at a high level
-  * Describe how lightweight image models differ from high-fidelity image models
   * Explain what debugging is in modern software systems
   * Describe the difference between day-to-day debugging and on-call debugging
-  * Identify common failure modes in production systems
 * Lecture outlines: [Gemini API](curriculum/01-02-gemini-api-ai-ad-creation/lecture-outline.md) | [Veo3](curriculum/01-02-veo3/lecture-outline.md) | [Nano Banana](curriculum/01-02-nano-banana/lecture-outline.md) | [Debugging](curriculum/01-02-debugging-best-practices/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
