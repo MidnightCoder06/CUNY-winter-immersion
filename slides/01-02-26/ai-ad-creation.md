@@ -1,1 +1,0 @@
-TODO: Convert Gamma slides to Google slides
