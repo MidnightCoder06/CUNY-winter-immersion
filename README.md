@@ -15,8 +15,8 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 
 ### January 2nd
 * Gemini for AI Ad Creation
-    * Veo3
-    * Nano Banana 
+    * Veo3 via https://kie.ai/
+    * Nano Banana via https://gemini.google.com/app
 * Debugging Best Practices
 * Objectives:
   * Explain what the Gemini API is and what problems it solves
@@ -25,7 +25,8 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain what debugging is in modern software systems
   * Describe the difference between day-to-day debugging and on-call debugging
 * Lecture outlines: [Gemini API](curriculum/01-02-gemini-api-ai-ad-creation/lecture-outline.md) | [Veo3](curriculum/01-02-veo3/lecture-outline.md) | [Nano Banana](curriculum/01-02-nano-banana/lecture-outline.md) | [Debugging](curriculum/01-02-debugging-best-practices/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+* Lecture recording: [📺](https://youtu.be/QcBWaeDZIm8)
+* Why engineering jobs other swe are important to consider [📺](https://youtube.com/shorts/9YmDu8rrUNw)
 
 ### January 5th 
 * Moderation
