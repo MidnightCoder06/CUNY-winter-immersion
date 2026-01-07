@@ -37,6 +37,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain why safety and guardrails are required in AI systems
   * Describe how the OpenAI Moderation API works
   * Explain the purpose of Amazon Bedrock Guardrails: https://aws.amazon.com/bedrock/guardrails/
+  * AI influencer example: https://github.com/MidnightCoder06/malik-stone-ai
   * Identify risks associated with unguarded AI deployments
 * Lecture outline: [Moderation & Guardrails](curriculum/01-19-moderation-guardrails/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
