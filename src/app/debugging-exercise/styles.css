@@ -1,0 +1,223 @@
+/* Debugging Exercise Styles - Contains intentional CSS bugs! */
+
+.debug-container {
+  min-height: 100vh;
+  /* BUG: Wrong background color makes text hard to read */
+  background: #1a1a2e;
+  color: #1a1a2e; /* BUG: Text same color as background! */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* BUG: Header has negative z-index, will be behind everything */
+.debug-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  z-index: -1; /* BUG: Negative z-index! */
+}
+
+.debug-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  /* BUG: Color is too dark on gradient background */
+  color: #333;
+}
+
+.debug-header p {
+  font-size: 1.1rem;
+  color: #333; /* BUG: Also too dark */
+}
+
+.debug-main {
+  /* BUG: Flexbox is set to column when it should be row */
+  display: flex;
+  flex-direction: column; /* Should be row for side-by-side layout */
+  padding: 2rem;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* BUG: Justify content wrong */
+  justify-content: flex-start;
+}
+
+.profile-card {
+  /* BUG: Width is too wide, causes overflow */
+  width: 150%;
+  background: #2d2d44;
+  border-radius: 16px;
+  padding: 2rem;
+  /* BUG: Box shadow syntax is wrong */
+  box-shadow: 0 10px 40px rgba(0, 0, 0); /* Missing blur and spread */
+  /* BUG: Overflow hidden cuts off content */
+  overflow: hidden;
+  max-height: 400px; /* BUG: Max height too small, cuts off form */
+}
+
+.card-header {
+  /* BUG: Flex items not centering properly */
+  display: flex;
+  flex-direction: row; /* Should probably be column or different alignment */
+  align-items: flex-start; /* BUG: Should be center */
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  /* BUG: Border on wrong side */
+  border-left: 3px solid #667eea; /* Should be border-bottom */
+  padding-left: 1rem;
+}
+
+.profile-image {
+  /* BUG: Image sizing is broken */
+  width: 800px; /* Way too big! */
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #667eea;
+}
+
+.card-header h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  /* BUG: Margin pushes it off screen */
+  margin-left: 500px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  /* BUG: Label color too light, nearly invisible */
+  color: #2d2d44;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.form-group input,
+.form-group textarea {
+  /* BUG: Input background same as container - invisible border */
+  background: #1a1a2e;
+  border: 1px solid #1a1a2e; /* BUG: Border invisible */
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  color: #fff;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  /* BUG: Focus state color doesn't stand out */
+  border-color: #2d2d44;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  /* BUG: Placeholder too dark to read */
+  color: #1a1a2e;
+}
+
+.error {
+  color: #ff6b6b;
+  font-size: 0.85rem;
+  /* BUG: Display none hides all errors */
+  display: none;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* BUG: Button pushed off screen */
+  margin-left: 300px;
+  /* BUG: Width too small */
+  width: 50px;
+  /* BUG: Text overflow hidden */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+}
+
+.success-message {
+  margin-top: 1rem;
+  padding: 1rem;
+  /* BUG: Success message text same color as background */
+  background: #4ade80;
+  color: #4ade80;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* BUG: Sidebar has position absolute without proper positioning */
+.debug-sidebar {
+  position: absolute; /* BUG: Should be relative or static */
+  right: -200px; /* BUG: Pushed off screen */
+  width: 250px;
+  background: #2d2d44;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.debug-sidebar h3 {
+  color: #667eea;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.debug-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.debug-sidebar li {
+  /* BUG: Text color invisible */
+  color: #2d2d44;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #3d3d5c;
+}
+
+.debug-sidebar li:last-child {
+  border-bottom: none;
+}
+
+/* BUG: Footer styling completely broken */
+.debug-footer {
+  /* BUG: Position fixed but wrong placement */
+  position: fixed;
+  top: 50%; /* Should be bottom: 0 */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #667eea;
+  /* BUG: Text color same as background */
+  color: #667eea;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  /* BUG: Z-index puts it behind other content */
+  z-index: -10;
+}
+
+/* BUG: Missing responsive styles entirely */
+/* No media queries = broken on mobile */
+

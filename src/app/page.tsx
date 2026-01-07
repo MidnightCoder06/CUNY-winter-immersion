@@ -23,10 +23,13 @@ export default function Home() {
         </div>
 
         {/* January 5th - Debugging Activity */}
-        <div className="card card-2">
+        <a 
+          href="/debugging-exercise" 
+          className="card card-2 card-link"
+        >
           <span className="card-date">January 5th</span>
           <h2 className="card-title">Debugging Activity</h2>
-        </div>
+        </a>
 
         {/* January 5th */}
         <a 
