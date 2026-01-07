@@ -14,6 +14,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 ## Course Syllabus
 
 ### January 2nd
+
 * Gemini for AI Ad Creation
     * Veo3 via https://kie.ai/
     * Nano Banana via https://gemini.google.com/app
@@ -29,12 +30,13 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Why engineering jobs other swe are important to consider [📺](https://youtube.com/shorts/9YmDu8rrUNw)
 
 ### January 5th 
-* Moderation
+
+* OpenAI Moderation API: https://platform.openai.com/docs/guides/moderation
 * Objectives:
   * learn how to make AI influencers
   * Explain why safety and guardrails are required in AI systems
   * Describe how the OpenAI Moderation API works
-  * Explain the purpose of Amazon Bedrock Guardrails
+  * Explain the purpose of Amazon Bedrock Guardrails: https://aws.amazon.com/bedrock/guardrails/
   * Identify risks associated with unguarded AI deployments
 * Lecture outline: [Moderation & Guardrails](curriculum/01-19-moderation-guardrails/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
@@ -42,8 +44,9 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Observability Foundations
   * Observability concepts
   * Logs, metrics, traces
-  * CloudWatch basics
-  * Athena querying
+  * CloudWatch basics: https://aws.amazon.com/cloudwatch/
+  * Athena querying: https://aws.amazon.com/athena/
+  * What is Redshift: https://aws.amazon.com/pm/redshift/
 * Objectives:
   * Explain what observability is and why it matters in modern systems
   * Distinguish between logs, metrics, and traces
@@ -54,8 +57,9 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 
 ### January 6th
 
-* LlamaIndex
-* LlamaParse
+* LlamaIndex: https://www.llamaindex.ai/
+* LlamaParse: https://www.llamaindex.ai/llamaparse
+* LlamaCloud: https://www.llamaindex.ai/llamacloud
 * Objectives:
   * Explain what LlamaIndex is and why it exists
   * Describe how LlamaIndex differs from raw embedding pipelines
@@ -65,10 +69,11 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 * OpenAI APIs
-  * Files
-  * Responses
-  * Vector Stores
-  * Embeddings
+  * Files: https://platform.openai.com/docs/api-reference/files
+  * Responses: https://platform.openai.com/docs/api-reference/responses
+  * Vector Stores: https://platform.openai.com/docs/api-reference/vector-stores
+  * Embeddings: https://platform.openai.com/docs/api-reference/embeddings
+* Sample project that uses them: https://github.com/MidnightCoder06/housing-justice-builder
 * Objectives:
   * Explain what embeddings are and why they matter
   * Describe the purpose of files and vector stores in AI systems
@@ -77,7 +82,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture outline: [OpenAI APIs](curriculum/01-05-openai-apis-files-vector-stores-embeddings/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
-* OpenAI Audio API
+* OpenAI Audio API: https://platform.openai.com/docs/api-reference/audio
 * Objectives:
   * Explain what the OpenAI Audio API is
   * Describe the difference between text-to-speech and speech-to-text
@@ -86,7 +91,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture outline: [OpenAI Audio API](curriculum/01-20-openai-audio-api/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
-* OpenAI Realtime API (Voice)
+* OpenAI Realtime API (Voice): https://platform.openai.com/docs/guides/realtime
 * Objectives:
   * Explain what the OpenAI Realtime API is
   * Describe how realtime voice interactions differ from batch audio processing
@@ -94,7 +99,6 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain architectural considerations for realtime systems
 * Lecture outline: [OpenAI Realtime API](curriculum/01-21-openai-realtime-api-voice/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
-
 
 ### January 7th
 
@@ -120,7 +124,6 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture outline: [Customer Support Agent](curriculum/01-16-customer-support-agent-architecture/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
-
 ### January 8th
 
 * n8n 
@@ -135,6 +138,10 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 
 ### January 9th
 
+* Setting up Cloudwatch
+* Setting up Athena 
+* Setting up Redshift
+
 * Gemini + NotebookLM + Google Workspace
 * Objectives:
   * Explain how Gemini integrates into workplace productivity tools
@@ -145,6 +152,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 12th
+
 * MCP Server
 * AWS Cloudwatch MCP Server
 * Objectives:
@@ -156,6 +164,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 13th
+
 * Datadog MCP Server
 * Grafana MCP Server
 * Objectives:
@@ -177,7 +186,6 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture outline: [Claude Code](curriculum/01-08-openai-codex-cli-vs-code/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
-
 ### January 15th
 * LlamaIndex & LlamaParse Pt. 2
 
@@ -186,6 +194,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 
 ### January 19th
 * AI Ad creation part 2
+* Eleven Labs
 
 ### January 20th
 * Sales Agent Project
