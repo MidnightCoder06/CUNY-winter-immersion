@@ -103,11 +103,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 
 ### January 7th
 
-* OpenAI Audio API & Realtime API Pt. 2
-
-* Debugging Pt. 2
-
-* OpenAI Codex
+* Lecture: OpenAI Codex
   * Visual Studio extension
   * CLI
 * Objectives:
@@ -117,11 +113,9 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain the risks of over-reliance on AI coding tools
 * Lecture outline: [OpenAI Codex](curriculum/01-06-openai-completions/lecture-outline.md)
 
-* Customer Support Agent Architecture
-* Objectives:
-  * Design AI support agents
-  * Understand escalation logic
-* Lecture outline: [Customer Support Agent](curriculum/01-16-customer-support-agent-architecture/lecture-outline.md)
+* In class OpenAI Audio API & Realtime API Exercise
+
+* In class Debugging Exercise
 
 ### January 8th
 
@@ -134,11 +128,20 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Identify use cases where automation compounds value
 * Lecture outline: [n8n & ComfyUI](curriculum/01-14-workflow-automation-n8n-comfyui/lecture-outline.md)
 
+* Customer Support Agent Architecture
+* Objectives:
+  * Design AI support agents
+  * Understand escalation logic
+* Lecture outline: [Customer Support Agent](curriculum/01-16-customer-support-agent-architecture/lecture-outline.md)
+* Introduction to System Design 
+* Start building the agent in class
+
 ### January 9th
 
 * Setting up Cloudwatch
 * Setting up Athena 
 * Setting up Redshift
+* Outcome: Add this to your AI influencer and document project
 
 * Gemini + NotebookLM + Google Workspace
 * Objectives:
@@ -147,6 +150,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Identify knowledge-work tasks that benefit most from AI assistance
   * Explain the risks of using AI blindly in professional environments
 * Lecture outline: [Gemini & NotebookLM](curriculum/01-15-gemini-notebooklm/lecture-outline.md)
+* Outcome: Create a brand media kit for your business
 
 ### January 12th
 
@@ -182,16 +186,17 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 
 ### January 15th
 * LlamaIndex & LlamaParse Pt. 2
+* Incorporate that into your file upload / vector store project
 
 ### January 16th
-* n8n & comfyUI Pt. 2
+* n8n & comfyUI Pt. 2 <> Learn how to automate strings of api cals
 
 ### January 19th
-* AI Ad creation part 2
-* Eleven Labs
+* AI Ad creation part 2 <> Run a real ad campaign for 
+* Add an Eleven Labs to your AI influencer 
 
 ### January 20th
-* Sales Agent Project
+* Create a Sales Agent Project using n8n
 
 ### January 21st
 * Using Ollama to customize an open source model (llamaa) and use it locally
