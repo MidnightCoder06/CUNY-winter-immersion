@@ -115,14 +115,12 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Identify appropriate use cases for Codex in CLI and IDE environments
   * Explain the risks of over-reliance on AI coding tools
 * Lecture outline: [OpenAI Codex](curriculum/01-06-openai-completions/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 * Customer Support Agent Architecture
 * Objectives:
   * Design AI support agents
   * Understand escalation logic
 * Lecture outline: [Customer Support Agent](curriculum/01-16-customer-support-agent-architecture/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 8th
 
@@ -134,7 +132,6 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain what ComfyUI is and how it fits into AI pipelines
   * Identify use cases where automation compounds value
 * Lecture outline: [n8n & ComfyUI](curriculum/01-14-workflow-automation-n8n-comfyui/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 9th
 
@@ -149,7 +146,6 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Identify knowledge-work tasks that benefit most from AI assistance
   * Explain the risks of using AI blindly in professional environments
 * Lecture outline: [Gemini & NotebookLM](curriculum/01-15-gemini-notebooklm/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 12th
 
@@ -161,7 +157,6 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain how observability data can be accessed through MCP
   * Identify use cases for MCP in AI-driven operations
 * Lecture outline: [MCP Server](curriculum/01-12-observability-via-mcp/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 13th
 
@@ -173,7 +168,6 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Compare Datadog and Grafana use cases
   * Identify scenarios where AI-assisted observability adds the most value
 * Lecture outline: [Datadog & Grafana MCP](curriculum/01-13-datadog-grafana-mcp/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 14th
 
@@ -184,7 +178,6 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Identify appropriate use cases for Claude Code in CLI and IDE environments
   * Explain the risks of over-reliance on AI coding tools
 * Lecture outline: [Claude Code](curriculum/01-08-openai-codex-cli-vs-code/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 15th
 * LlamaIndex & LlamaParse Pt. 2
