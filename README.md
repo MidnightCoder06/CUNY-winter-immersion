@@ -54,7 +54,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain how observability differs from basic monitoring
   * Identify where observability fits in AI and distributed systems
 * Lecture outline: [Observability Foundations](curriculum/01-09-observability-foundations/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+* Lecture recording: [📺](https://youtu.be/039WlEdsDWU)
 
 ### January 6th
 
@@ -67,7 +67,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain the role of LlamaParse in document ingestion
   * Identify when LlamaIndex is the right abstraction for AI systems
 * Lecture outline: [LlamaIndex & LlamaParse](curriculum/01-07-llamaindex-llamaparse/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+* Lecture recording: [📺](https://youtu.be/kI8-mgjci-8)
 
 * OpenAI APIs
   * Files: https://platform.openai.com/docs/api-reference/files
@@ -81,7 +81,8 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain how embeddings enable semantic search and retrieval
   * Identify real-world use cases for vector-based systems
 * Lecture outline: [OpenAI APIs](curriculum/01-05-openai-apis-files-vector-stores-embeddings/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+* Lecture recording 1: [📺](https://youtu.be/3rZIk4ICJp0)
+* Lecture recording 2: [📺](https://youtu.be/OvstUQKNkqM)
 
 * OpenAI Audio API: https://platform.openai.com/docs/api-reference/audio
 * Objectives:
@@ -90,7 +91,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Identify use cases for audio interfaces in AI systems
   * Explain tradeoffs between audio, text, and multimodal interfaces
 * Lecture outline: [OpenAI Audio API](curriculum/01-20-openai-audio-api/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+* Lecture recording: [📺](https://youtu.be/RUHP7YdJwPs)
 
 * OpenAI Realtime API (Voice): https://platform.openai.com/docs/guides/realtime
 * Objectives:
@@ -99,7 +100,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Identify use cases that require low-latency voice AI
   * Explain architectural considerations for realtime systems
 * Lecture outline: [OpenAI Realtime API](curriculum/01-21-openai-realtime-api-voice/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+* Lecture recording: [📺](https://youtu.be/RUHP7YdJwPs)
 
 ### January 7th
 
@@ -187,12 +188,14 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 ### January 15th
 * LlamaIndex & LlamaParse Pt. 2
 * Incorporate that into your file upload / vector store project
+* Set up legal agent project
 
 ### January 16th
 * n8n & comfyUI Pt. 2 <> Learn how to automate strings of api cals
+* Use Manus to set up consulting agent project
 
 ### January 19th
-* AI Ad creation part 2 <> Run a real ad campaign for 
+* AI Ad creation part 2 <> Run a real ad campaign for AI brand
 * Add an Eleven Labs to your AI influencer 
 
 ### January 20th
@@ -200,3 +203,4 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 
 ### January 21st
 * Using Ollama to customize an open source model (llamaa) and use it locally
+* Using Bedrock to set up popular LLMS and implementing AWS guardrails
