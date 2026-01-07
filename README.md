@@ -39,40 +39,6 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture outline: [Moderation & Guardrails](curriculum/01-19-moderation-guardrails/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
-### January 6th
-  * OpenAI Codex
-    * Visual Studio extension
-    * CLI
-* Objectives:
-  * Explain what OpenAI Codex is and how it differs from general LLM usage
-  * Describe how Codex assists developers in real workflows
-  * Identify appropriate use cases for Codex in CLI and IDE environments
-  * Explain the risks of over-reliance on AI coding tools
-* Lecture outline: [OpenAI Codex](curriculum/01-06-openai-completions/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
-
-### January 7th
-* LlamaIndex
-* LlamaParse
-* Objectives:
-  * Explain what LlamaIndex is and why it exists
-  * Describe how LlamaIndex differs from raw embedding pipelines
-  * Explain the role of LlamaParse in document ingestion
-  * Identify when LlamaIndex is the right abstraction for AI systems
-* Lecture outline: [LlamaIndex & LlamaParse](curriculum/01-07-llamaindex-llamaparse/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
-
-### January 8th
-* Claude Code
-* Objectives:
-  * Explain what Claude Code is and how it differs from general LLM usage
-  * Describe how Claude Code assists developers in real workflows
-  * Identify appropriate use cases for Claude Code in CLI and IDE environments
-  * Explain the risks of over-reliance on AI coding tools
-* Lecture outline: [Claude Code](curriculum/01-08-openai-codex-cli-vs-code/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
-
-### January 9th
 * Observability Foundations
   * Observability concepts
   * Logs, metrics, traces
@@ -85,7 +51,99 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Identify where observability fits in AI and distributed systems
 * Lecture outline: [Observability Foundations](curriculum/01-09-observability-foundations/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
- 
+
+### January 6th
+
+* LlamaIndex
+* LlamaParse
+* Objectives:
+  * Explain what LlamaIndex is and why it exists
+  * Describe how LlamaIndex differs from raw embedding pipelines
+  * Explain the role of LlamaParse in document ingestion
+  * Identify when LlamaIndex is the right abstraction for AI systems
+* Lecture outline: [LlamaIndex & LlamaParse](curriculum/01-07-llamaindex-llamaparse/lecture-outline.md)
+* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+
+* OpenAI APIs
+  * Files
+  * Responses
+  * Vector Stores
+  * Embeddings
+* Objectives:
+  * Explain what embeddings are and why they matter
+  * Describe the purpose of files and vector stores in AI systems
+  * Explain how embeddings enable semantic search and retrieval
+  * Identify real-world use cases for vector-based systems
+* Lecture outline: [OpenAI APIs](curriculum/01-05-openai-apis-files-vector-stores-embeddings/lecture-outline.md)
+* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+
+* OpenAI Audio API
+* Objectives:
+  * Explain what the OpenAI Audio API is
+  * Describe the difference between text-to-speech and speech-to-text
+  * Identify use cases for audio interfaces in AI systems
+  * Explain tradeoffs between audio, text, and multimodal interfaces
+* Lecture outline: [OpenAI Audio API](curriculum/01-20-openai-audio-api/lecture-outline.md)
+* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+
+* OpenAI Realtime API (Voice)
+* Objectives:
+  * Explain what the OpenAI Realtime API is
+  * Describe how realtime voice interactions differ from batch audio processing
+  * Identify use cases that require low-latency voice AI
+  * Explain architectural considerations for realtime systems
+* Lecture outline: [OpenAI Realtime API](curriculum/01-21-openai-realtime-api-voice/lecture-outline.md)
+* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+
+
+### January 7th
+
+* OpenAI Audio API & Realtime API Pt. 2
+
+* Debugging Pt. 2
+
+* OpenAI Codex
+  * Visual Studio extension
+  * CLI
+* Objectives:
+  * Explain what OpenAI Codex is and how it differs from general LLM usage
+  * Describe how Codex assists developers in real workflows
+  * Identify appropriate use cases for Codex in CLI and IDE environments
+  * Explain the risks of over-reliance on AI coding tools
+* Lecture outline: [OpenAI Codex](curriculum/01-06-openai-completions/lecture-outline.md)
+* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+
+* Customer Support Agent Architecture
+* Objectives:
+  * Design AI support agents
+  * Understand escalation logic
+* Lecture outline: [Customer Support Agent](curriculum/01-16-customer-support-agent-architecture/lecture-outline.md)
+* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+
+
+### January 8th
+
+* n8n 
+* comfyUI
+* Objectives:
+  * Explain what workflow automation is and why it matters
+  * Describe how n8n enables event-driven automation
+  * Explain what ComfyUI is and how it fits into AI pipelines
+  * Identify use cases where automation compounds value
+* Lecture outline: [n8n & ComfyUI](curriculum/01-14-workflow-automation-n8n-comfyui/lecture-outline.md)
+* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+
+### January 9th
+
+* Gemini + NotebookLM + Google Workspace
+* Objectives:
+  * Explain how Gemini integrates into workplace productivity tools
+  * Describe what NotebookLM is and how it differs from general chatbots
+  * Identify knowledge-work tasks that benefit most from AI assistance
+  * Explain the risks of using AI blindly in professional environments
+* Lecture outline: [Gemini & NotebookLM](curriculum/01-15-gemini-notebooklm/lecture-outline.md)
+* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+
 ### January 12th
 * MCP Server
 * AWS Cloudwatch MCP Server
@@ -109,65 +167,28 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
 
 ### January 14th
-* n8n 
-* comfyUI
+
+* Claude Code
 * Objectives:
-  * Explain what workflow automation is and why it matters
-  * Describe how n8n enables event-driven automation
-  * Explain what ComfyUI is and how it fits into AI pipelines
-  * Identify use cases where automation compounds value
-* Lecture outline: [n8n & ComfyUI](curriculum/01-14-workflow-automation-n8n-comfyui/lecture-outline.md)
+  * Explain what Claude Code is and how it differs from general LLM usage
+  * Describe how Claude Code assists developers in real workflows
+  * Identify appropriate use cases for Claude Code in CLI and IDE environments
+  * Explain the risks of over-reliance on AI coding tools
+* Lecture outline: [Claude Code](curriculum/01-08-openai-codex-cli-vs-code/lecture-outline.md)
 * Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+
 
 ### January 15th
-* Gemini + NotebookLM + Google Workspace
-* Objectives:
-  * Explain how Gemini integrates into workplace productivity tools
-  * Describe what NotebookLM is and how it differs from general chatbots
-  * Identify knowledge-work tasks that benefit most from AI assistance
-  * Explain the risks of using AI blindly in professional environments
-* Lecture outline: [Gemini & NotebookLM](curriculum/01-15-gemini-notebooklm/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+* LlamaIndex & LlamaParse Pt. 2
 
 ### January 16th
-* Customer Support Agent Architecture
-* Objectives:
-  * Design AI support agents
-  * Understand escalation logic
-* Lecture outline: [Customer Support Agent](curriculum/01-16-customer-support-agent-architecture/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+* n8n & comfyUI Pt. 2
 
 ### January 19th
-* OpenAI APIs
-  * Files
-  * Responses
-  * Vector Stores
-  * Embeddings
-* Objectives:
-  * Explain what embeddings are and why they matter
-  * Describe the purpose of files and vector stores in AI systems
-  * Explain how embeddings enable semantic search and retrieval
-  * Identify real-world use cases for vector-based systems
-* Lecture outline: [OpenAI APIs](curriculum/01-05-openai-apis-files-vector-stores-embeddings/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
-
+* AI Ad creation part 2
 
 ### January 20th
-* OpenAI Audio API
-* Objectives:
-  * Explain what the OpenAI Audio API is
-  * Describe the difference between text-to-speech and speech-to-text
-  * Identify use cases for audio interfaces in AI systems
-  * Explain tradeoffs between audio, text, and multimodal interfaces
-* Lecture outline: [OpenAI Audio API](curriculum/01-20-openai-audio-api/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+* Sales Agent Project
 
 ### January 21st
-* OpenAI Realtime API (Voice)
-* Objectives:
-  * Explain what the OpenAI Realtime API is
-  * Describe how realtime voice interactions differ from batch audio processing
-  * Identify use cases that require low-latency voice AI
-  * Explain architectural considerations for realtime systems
-* Lecture outline: [OpenAI Realtime API](curriculum/01-21-openai-realtime-api-voice/lecture-outline.md)
-* Lecture recording: [📺](https://www.youtube.com/@jeanleconteii)
+* Using Ollama to customize an open source model (llamaa) and use it locally

@@ -22,6 +22,12 @@ export default function Home() {
           </ul>
         </div>
 
+        {/* January 5th - Debugging Activity */}
+        <div className="card card-2">
+          <span className="card-date">January 5th</span>
+          <h2 className="card-title">Debugging Activity</h2>
+        </div>
+
         {/* January 5th */}
         <a 
           href="https://github.com/MidnightCoder06/housing-justice-builder" 
