@@ -104,6 +104,8 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 
 ### January 7th
 
+* Video overview of new [syllabus](https://youtu.be/GKL4id7X0Go)
+
 * Lecture: OpenAI Codex
   * Visual Studio extension
   * CLI
@@ -113,10 +115,23 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Identify appropriate use cases for Codex in CLI and IDE environments
   * Explain the risks of over-reliance on AI coding tools
 * Lecture outline: [OpenAI Codex](curriculum/01-06-openai-completions/lecture-outline.md)
+* Lecture recording - Intro to Codex: [📺](https://youtu.be/ev3lzf-ztxI)
 
 * In class OpenAI Audio API & Realtime API Exercise
 
 * In class Debugging Exercise
+
+  Fix the following
+  * Should be able to type in the form
+  * Text should not be cut off
+  * The form should be centered in the screen 
+  * Should be responsive on both mobile and web
+  * The profile should appear
+  * The submit button being clicked shouldn't crash the page
+
+* [Manus Acquisition By Meta Recap](https://youtube.com/shorts/UsjxhnGdmFQ?si=pJrLjhNyOL6Bv9OK)
+
+* [Which model to use for what Recap](https://youtube.com/shorts/SUTDqFiLdPc?si=aP6orjDkTlHkGgVz)
 
 ### January 8th
 
@@ -139,7 +154,19 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 
 ### January 9th
 
+* MCP Server
 * Setting up Cloudwatch
+* AWS Cloudwatch MCP Server
+* Objectives:
+  * Explain what the Model Context Protocol (MCP) is
+  * Describe how MCP servers extend AI systems with operational context
+  * Explain how observability data can be accessed through MCP
+  * Identify use cases for MCP in AI-driven operations
+* Lecture outline: [MCP Server](curriculum/01-12-observability-via-mcp/lecture-outline.md)
+
+
+### January 12th
+
 * Setting up Athena 
 * Setting up Redshift
 * Outcome: Add this to your AI influencer and document project
@@ -152,17 +179,6 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain the risks of using AI blindly in professional environments
 * Lecture outline: [Gemini & NotebookLM](curriculum/01-15-gemini-notebooklm/lecture-outline.md)
 * Outcome: Create a brand media kit for your business
-
-### January 12th
-
-* MCP Server
-* AWS Cloudwatch MCP Server
-* Objectives:
-  * Explain what the Model Context Protocol (MCP) is
-  * Describe how MCP servers extend AI systems with operational context
-  * Explain how observability data can be accessed through MCP
-  * Identify use cases for MCP in AI-driven operations
-* Lecture outline: [MCP Server](curriculum/01-12-observability-via-mcp/lecture-outline.md)
 
 ### January 13th
 
