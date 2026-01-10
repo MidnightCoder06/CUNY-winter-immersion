@@ -13,6 +13,14 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 
 ## Course Syllabus
 
+🚨 **If you are not comfortable entering in credit card information into the official LLM platform then try to below alternatives that offer free credits without entering card details first:**  🚨
+
+* https://openrouter.ai/
+* https://groq.com/pricing -> https://console.groq.com/settings/billing/plans -> https://console.groq.com/playground
+* https://ai.google.dev/gemini-api/docs/pricing -> https://aistudio.google.com/
+
+Video recording of me explaining this problem & solution: [📺]()
+
 ### January 2nd
 
 * Gemini for AI Ad Creation
@@ -116,6 +124,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Explain the risks of over-reliance on AI coding tools
 * Lecture outline: [OpenAI Codex](curriculum/01-06-openai-completions/lecture-outline.md)
 * Lecture recording - Intro to Codex: [📺](https://youtu.be/ev3lzf-ztxI)
+* Demo recording: [📺]()
 
 * In class OpenAI Audio API & Realtime API Exercise
 
@@ -142,17 +151,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Describe how n8n enables event-driven automation
   * Explain what ComfyUI is and how it fits into AI pipelines
   * Identify use cases where automation compounds value
-* Lecture outline: [n8n & ComfyUI](curriculum/01-14-workflow-automation-n8n-comfyui/lecture-outline.md)
-
-* Customer Support Agent Architecture
-* Objectives:
-  * Design AI support agents
-  * Understand escalation logic
-* Lecture outline: [Customer Support Agent](curriculum/01-16-customer-support-agent-architecture/lecture-outline.md)
-* Introduction to System Design 
-* Start building the agent in class
-
-### January 9th
+* Lecture recording: [📺]()
 
 * MCP Server
 * Setting up Cloudwatch
@@ -162,10 +161,41 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
   * Describe how MCP servers extend AI systems with operational context
   * Explain how observability data can be accessed through MCP
   * Identify use cases for MCP in AI-driven operations
-* Lecture outline: [MCP Server](curriculum/01-12-observability-via-mcp/lecture-outline.md)
+* Lecture recording: [📺]()
+
+
+### January 9th
+
+Intro to AI Support Agent Project
+
+* Design Doc: https://docs.google.com/document/d/1g-pbTmyfLU086hOvp7pR1ZMyNOEzm-tLyXif_Wo1Q8M/edit?usp=sharing
+* Lecture recording: [📺]()
 
 
 ### January 12th
+
+* Claude Code
+* Objectives:
+  * Explain what Claude Code is and how it differs from general LLM usage
+  * Describe how Claude Code assists developers in real workflows
+  * Identify appropriate use cases for Claude Code in CLI and IDE environments
+  * Explain the risks of over-reliance on AI coding tools
+* Lecture outline: [Claude Code](curriculum/01-08-openai-codex-cli-vs-code/lecture-outline.md)
+* Lecture recording: [📺]()
+
+### January 13th
+
+* Datadog MCP Server
+* Grafana MCP Server
+* Objectives:
+  * Explain the role of Datadog and Grafana in observability ecosystems
+  * Describe how MCP servers expose third-party observability tools to AI systems
+  * Compare Datadog and Grafana use cases
+  * Identify scenarios where AI-assisted observability adds the most value
+* Lecture outline: [Datadog & Grafana MCP](curriculum/01-13-datadog-grafana-mcp/lecture-outline.md)
+
+
+### January 14th
 
 * Setting up Athena 
 * Setting up Redshift
@@ -180,26 +210,6 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * Lecture outline: [Gemini & NotebookLM](curriculum/01-15-gemini-notebooklm/lecture-outline.md)
 * Outcome: Create a brand media kit for your business
 
-### January 13th
-
-* Datadog MCP Server
-* Grafana MCP Server
-* Objectives:
-  * Explain the role of Datadog and Grafana in observability ecosystems
-  * Describe how MCP servers expose third-party observability tools to AI systems
-  * Compare Datadog and Grafana use cases
-  * Identify scenarios where AI-assisted observability adds the most value
-* Lecture outline: [Datadog & Grafana MCP](curriculum/01-13-datadog-grafana-mcp/lecture-outline.md)
-
-### January 14th
-
-* Claude Code
-* Objectives:
-  * Explain what Claude Code is and how it differs from general LLM usage
-  * Describe how Claude Code assists developers in real workflows
-  * Identify appropriate use cases for Claude Code in CLI and IDE environments
-  * Explain the risks of over-reliance on AI coding tools
-* Lecture outline: [Claude Code](curriculum/01-08-openai-codex-cli-vs-code/lecture-outline.md)
 
 ### January 15th
 * LlamaIndex & LlamaParse Pt. 2
