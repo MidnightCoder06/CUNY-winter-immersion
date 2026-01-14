@@ -19,7 +19,7 @@ Lecture recordings for each day can be accessed by clicking the 📺 emoji next 
 * https://groq.com/pricing -> https://console.groq.com/settings/billing/plans -> https://console.groq.com/playground
 * https://ai.google.dev/gemini-api/docs/pricing -> https://aistudio.google.com/
 
-Video recording of me explaining this problem & solution: [📺]()
+Video recording of me explaining this problem & solution: [📺](https://youtu.be/xT0XqRc31w8)
 
 ### January 2nd
 
@@ -124,12 +124,11 @@ Video recording of me explaining this problem & solution: [📺]()
   * Explain the risks of over-reliance on AI coding tools
 * Lecture outline: [OpenAI Codex](curriculum/01-06-openai-completions/lecture-outline.md)
 * Lecture recording - Intro to Codex: [📺](https://youtu.be/ev3lzf-ztxI)
-* Demo recording: [📺]()
+* Setup Instructions: [📺](https://youtu.be/DzEIDdd1SVQ)
 
 * In class OpenAI Audio API & Realtime API Exercise
 
 * In class Debugging Exercise
-
   Fix the following
   * Should be able to type in the form
   * Text should not be cut off
@@ -151,7 +150,6 @@ Video recording of me explaining this problem & solution: [📺]()
   * Describe how n8n enables event-driven automation
   * Explain what ComfyUI is and how it fits into AI pipelines
   * Identify use cases where automation compounds value
-* Lecture recording: [📺]()
 
 * MCP Server
 * Setting up Cloudwatch
@@ -161,16 +159,13 @@ Video recording of me explaining this problem & solution: [📺]()
   * Describe how MCP servers extend AI systems with operational context
   * Explain how observability data can be accessed through MCP
   * Identify use cases for MCP in AI-driven operations
-* Lecture recording: [📺]()
-
 
 ### January 9th
 
 Intro to AI Support Agent Project
 
 * Design Doc: https://docs.google.com/document/d/1g-pbTmyfLU086hOvp7pR1ZMyNOEzm-tLyXif_Wo1Q8M/edit?usp=sharing
-* Lecture recording: [📺]()
-
+* Lecture recording: [📺](https://youtu.be/utZKjL9iDog)
 
 ### January 12th
 
@@ -180,36 +175,20 @@ Intro to AI Support Agent Project
   * Describe how Claude Code assists developers in real workflows
   * Identify appropriate use cases for Claude Code in CLI and IDE environments
   * Explain the risks of over-reliance on AI coding tools
-* Lecture outline: [Claude Code](curriculum/01-08-openai-codex-cli-vs-code/lecture-outline.md)
-* Lecture recording: [📺]()
+* Why use Claude Code: [📺](https://youtube.com/shorts/Y1uGvd607Fk?si=YngvUQNFG1nTBTf6)
+* Setting up Claude Code: [📺](https://youtu.be/5P6v4hUJAis)
 
 ### January 13th
 
-* Datadog MCP Server
-* Grafana MCP Server
-* Objectives:
-  * Explain the role of Datadog and Grafana in observability ecosystems
-  * Describe how MCP servers expose third-party observability tools to AI systems
-  * Compare Datadog and Grafana use cases
-  * Identify scenarios where AI-assisted observability adds the most value
-* Lecture outline: [Datadog & Grafana MCP](curriculum/01-13-datadog-grafana-mcp/lecture-outline.md)
-
+* Read: [📜](https://docs.google.com/document/d/1ivdy8bHlkF322GEfe4-C3dEcKyXrHfYcEN9OKrCHFQk/edit?usp=sharing)
 
 ### January 14th
 
+* Sentry MCP Server
+* Figma MCP Server
 * Setting up Athena 
+* Setting up Cloudwatch
 * Setting up Redshift
-* Outcome: Add this to your AI influencer and document project
-
-* Gemini + NotebookLM + Google Workspace
-* Objectives:
-  * Explain how Gemini integrates into workplace productivity tools
-  * Describe what NotebookLM is and how it differs from general chatbots
-  * Identify knowledge-work tasks that benefit most from AI assistance
-  * Explain the risks of using AI blindly in professional environments
-* Lecture outline: [Gemini & NotebookLM](curriculum/01-15-gemini-notebooklm/lecture-outline.md)
-* Outcome: Create a brand media kit for your business
-
 
 ### January 15th
 * LlamaIndex & LlamaParse Pt. 2
