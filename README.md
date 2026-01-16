@@ -184,28 +184,27 @@ Intro to AI Support Agent Project
 
 ### January 14th
 
-* Sentry MCP Server
-* Figma MCP Server
 * Setting up Athena 
 * Setting up Cloudwatch
 * Setting up Redshift
 
 ### January 15th
+
+* Lecture recording -> MCP Servers: [📺](https://youtu.be/nflqgZU5aJY)
+* Read: [📜](https://docs.google.com/document/d/1JMMyEcjX6sRuOLTdJk8sE4Qd1EEqwVaacQloH_URveo/edit?usp=sharing)
+* Assignment: [📜](https://docs.google.com/document/d/1fOu2ll-hL8pMWaWm0c0-DQO9nisO0S-5crGdwdZjkKc/edit?usp=sharing)
+
+### January 16th
+* Claude Code Skills & Subagents
+
+### January 20th
 * LlamaIndex & LlamaParse Pt. 2
 * Incorporate that into your file upload / vector store project
 * Set up legal agent project
-
-### January 16th
 * n8n & comfyUI Pt. 2 <> Learn how to automate strings of api cals
 * Use Manus to set up consulting agent project
-
-### January 19th
-* AI Ad creation part 2 <> Run a real ad campaign for AI brand
-* Add an Eleven Labs to your AI influencer 
-
-### January 20th
-* Create a Sales Agent Project using n8n
 
 ### January 21st
 * Using Ollama to customize an open source model (llamaa) and use it locally
 * Using Bedrock to set up popular LLMS and implementing AWS guardrails
+* n8n Sales Agent
