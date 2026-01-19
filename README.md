@@ -195,16 +195,11 @@ Intro to AI Support Agent Project
 * Assignment: [📜](https://docs.google.com/document/d/1fOu2ll-hL8pMWaWm0c0-DQO9nisO0S-5crGdwdZjkKc/edit?usp=sharing)
 
 ### January 16th
-* Claude Code Skills & Subagents
+* AI News / Business Implications
+  * Meta's Nuclear Power Deal: [📺](https://www.youtube.com/shorts/hzgrqSius4M)
 
 ### January 20th
-* LlamaIndex & LlamaParse Pt. 2
-* Incorporate that into your file upload / vector store project
-* Set up legal agent project
-* n8n & comfyUI Pt. 2 <> Learn how to automate strings of api cals
-* Use Manus to set up consulting agent project
+* Claude Code Skills
 
 ### January 21st
-* Using Ollama to customize an open source model (llamaa) and use it locally
-* Using Bedrock to set up popular LLMS and implementing AWS guardrails
-* n8n Sales Agent
+* Claude Code Subagents
