@@ -177,6 +177,7 @@ Intro to AI Support Agent Project
   * Explain the risks of over-reliance on AI coding tools
 * Why use Claude Code: [📺](https://youtube.com/shorts/Y1uGvd607Fk?si=YngvUQNFG1nTBTf6)
 * Setting up Claude Code: [📺](https://youtu.be/5P6v4hUJAis)
+* Switching Billing Methods [📺](https://youtu.be/k0PI6_w8l24)
 
 ### January 13th
 
@@ -199,7 +200,7 @@ Intro to AI Support Agent Project
   * Meta's Nuclear Power Deal: [📺](https://www.youtube.com/shorts/hzgrqSius4M)
 
 ### January 20th
-* Claude Code Skills
+* Claude Code Skills: [📺](https://youtu.be/bpFVku1FQJg)
 
 ### January 21st
 * Claude Code Subagents
