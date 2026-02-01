@@ -185,9 +185,7 @@ Intro to AI Support Agent Project
 
 ### January 14th
 
-* Setting up Athena 
-* Setting up Cloudwatch
-* Setting up Redshift
+* Setting up AWS resources
 
 ### January 15th
 
